@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/todov2/static/css/main.b6b9300e.css",
+    "main.js": "/todov2/static/js/main.e81521a1.js",
+    "static/js/787.2de9d958.chunk.js": "/todov2/static/js/787.2de9d958.chunk.js",
+    "index.html": "/todov2/index.html",
+    "main.b6b9300e.css.map": "/todov2/static/css/main.b6b9300e.css.map",
+    "main.e81521a1.js.map": "/todov2/static/js/main.e81521a1.js.map",
+    "787.2de9d958.chunk.js.map": "/todov2/static/js/787.2de9d958.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b6b9300e.css",
+    "static/js/main.e81521a1.js"
+  ]
+}
