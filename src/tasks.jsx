@@ -66,6 +66,7 @@ const Tasks = () => {
                     {edit === i && <Input ref={e} value={value} onChange={(a) => {
                         setValue(a.target.value)
 
+
                     }}></Input> }
                     {edit === i && <Chip className={s.lol} onClick={() => {
                         if (value === '') {
