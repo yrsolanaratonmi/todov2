@@ -40,7 +40,7 @@ const Imput = () => {
         const onKeyDown = e => {
             if (e.keyCode === 13) {
                 if (value === '') {
-                    alert('введите задачу')
+                    alert('Enter task')
                 } else {
                     dispatch(setTask(value))
                     setValue('')
@@ -67,7 +67,7 @@ const Imput = () => {
             {buttonOpen && <Button variant="soft" color='success' className={s.btn} onClick={() => {
 
                 if (value === '') {
-                    alert('введите значение')
+                    alert('Enter task')
 
                 } else {
                     dispatch(setTask(value))
@@ -90,8 +90,13 @@ const Imput = () => {
                 setVisibility(!visibility)
             }}>Close History</Button>}
             {buttonOpen && <Button variant="soft" className={s.btn} onClick={() => {
-                setVisibility1(true)
-                dispatch(searchTasks(value))
+                if (value === '') {
+                    alert ('Enter search text')
+                } else {
+                    setVisibility1(true)
+                    dispatch(searchTasks(value))
+                }
+
 
             }}>Search Task</Button>}
 
